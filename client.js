@@ -78,7 +78,7 @@ stdin.addListener("data", function(d) {
 
 
 function start() {
-  client.connect('ws://192.168.100.20:4367/', 'echo-protocol');
+  client.connect('ws://192.168.56.1:4367/', 'echo-protocol');
 }
 
 function initialize() {
